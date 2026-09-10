@@ -1,0 +1,86 @@
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+
+
+#Parar{
+      background-color: crimson;
+      color : whitesmoke;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+}
+#Adelante{
+    background-color:seagreen;
+    color : whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Atras{
+      background-color:seagreen;
+      color : whitesmoke;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Izq{
+      background-color:seagreen;
+      color : whitesmoke ;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Derecha{
+      background-color:seagreen;
+      color : whitesmoke;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    background-color :midnightblue;
+    color : whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Conectar {
+    background-color :slateblue;
+    color : whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Hablar {
+    background-color :slateblue;
+    color : whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Detener {
+    background-color :slateblue;
+    color : whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Estado {
+    color: seagreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#Controles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#Adelante {
+    grid-column: 2;
+    grid-row: 1;
+}
+#Atras {
+    grid-column: 2;
+    grid-row: 3;
+}
+#Izq {
+    grid-column: 1;
+    grid-row: 2;
+}
+#Derecha {
+    grid-column: 3;
+    grid-row: 2;
+}
+#Parar {
+    grid-column: 2;
+    grid-row: 2;
+}

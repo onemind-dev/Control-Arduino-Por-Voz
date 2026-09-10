@@ -1,0 +1,16 @@
+# Carpetas de dependencias y node
+node_modules/
+.npm/
+
+# Carpetas pesadas generadas por Android Studio y Gradle
+.gradle/
+build/
+android/app/build/
+android/.gradle/
+android/build/
+/android/local.properties
+
+# Archivos ocultos del sistema Mac
+.DS_Store
+.AppleDouble
+.LSOverride
